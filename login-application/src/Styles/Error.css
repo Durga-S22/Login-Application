@@ -1,0 +1,79 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9AFD9;
+    background-image: url("./avenue-815297_1280.jpg");
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .ErrorPage {
+    background-image:url("./wp2855649.webp");
+    background-size: cover;
+    padding: 40px;
+    border-radius: 10px;
+    border:1px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Logo styling */
+  .logo img {
+    max-width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  /* Error heading */
+  h2 {
+    color: #ff4c4c;
+    margin-bottom: 20px;
+  }
+  
+  /* Error message */
+  p {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #9ea8b2;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    width: 100px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .ErrorPage {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .logo img {
+      max-width: 100px;
+    }
+  
+    button {
+      width: auto;
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
